@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="instaLogo.png" type="image/x-icon">
+    <style>
+        .css-div{
+            border: 1px solid red;
+        }
+        .transitions{
+            border: 1px solid rgb(44, 73, 1);
+            background-color: rgb(147, 148, 148);
+            display: inline-block;
+            height: 100px;
+        }
+        .max-width-test{
+            border: 1px solid blue;
+            background-color: aquamarine;
+            width: 700px;
+            margin: 20px; 
+        }
+        #maxWidthTest{
+            border: 1px solid blueviolet;
+            background-color: aqua;
+            max-width: 700px;
+            margin: 20px;
+        }
+        .border{
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid salmon;
+
+        }
+        .displayInline div{
+            background-color: rgb(78, 78, 255);
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            display: inline; 
+        }
+        .displayBlock div {
+            background-color: rgb(212, 255, 143);
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            display: block; /* by default div is block element */
+        }
+        .displayBlock p{
+            background-color:rgb(147, 148, 148);
+        }
+        .displayInlineBlock div{
+            background-color: rgb(222, 102, 247);
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .displayInlineBlock p{
+            background-color: gray;
+            display: inline-block;
+            /* height: 100px;
+            width: 100px; */
+        }
+    </style>
+</head>
+<body>
+    <container>
+        <Header>
+            <h2>This is header</h2>
+        </Header>
+
+
+        <div class="displayInline border">
+            <h3>This is Inline Element</h3>
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+        </div>
+        <div class="displayBlock border">
+            <h3>This is Block Element</h3>
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+            <p>This will took whole place</p>
+            <p>This will took whole place</p>
+            <p>This will took whole place</p>
+        </div>
+        <div class="displayInlineBlock border">
+            <h3>This is Inline-Block element</h3>
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+            <p>This won't took whole place</p>
+            <p>This won't took whole place</p>
+            <p>This won't took whole place</p>
+        </div>
+
+
+        <div class="css-div">
+            <h1>This is the title of the Rhyme</h1>
+            <h3>Author: <strong>Daniel extecntion</strong></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto aspernatur quod corporis quidem fuga quis praesentium debitis hic dignissimos, itaque quam laudantium assumenda veniam? Dignissimos ex nesciunt quae quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. <p class="transitions">Autem sunt veritatis consequatur nobis molestias, sequi possimus porro officiis eum earum facilis magnam architecto, exercitationem, sit enim maiores dolore recusandae neque? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> Consequatur ad reprehenderit deserunt consectetur excepturi esse saepe sint et non molestiae eligendi, nostrum unde! Debitis, inventore! Sequi quod ea expedita minus?</p>
+        </div>
+        <div class="max-width-test">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto aspernatur quod corporis quidem fuga quis praesentium debitis hic dignissimos, itaque quam laudantium assumenda veniam? Dignissimos ex nesciunt quae quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ad reprehenderit deserunt consectetur excepturi esse saepe sint et non molestiae eligendi, nostrum unde! Debitis, inventore! Sequi quod ea expedita minus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto aspernatur quod corporis quidem fuga quis praesentium debitis hic dignissimos, itaque quam laudantium assumenda veniam? Dignissimos ex nesciunt quae quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ad reprehenderit deserunt consectetur excepturi esse saepe sint et non molestiae eligendi, nostrum unde! Debitis, inventore! Sequi quod ea expedita minus?</p>
+        </div>
+        <div id="maxWidthTest">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto aspernatur quod corporis quidem fuga quis praesentium debitis hic dignissimos, itaque quam laudantium assumenda veniam? Dignissimos ex nesciunt quae quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ad reprehenderit deserunt consectetur excepturi esse saepe sint et non molestiae eligendi, nostrum unde! Debitis, inventore! Sequi quod ea expedita minus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto aspernatur quod corporis quidem fuga quis praesentium debitis hic dignissimos, itaque quam laudantium assumenda veniam? Dignissimos ex nesciunt quae quas. Lorem ipsum dolor sit amet consectetur adipisicing elit.Consequatur ad reprehenderit deserunt consectetur excepturi esse saepe sint et non molestiae eligendi, nostrum unde! Debitis, inventore! Sequi quod ea expedita minus?</p>
+        </div>
+        <h1>Hello this the looser talking... hope you all are doing good, Best of luck.</h1>
+        <footer>
+            <h5>This is footer @imran</h5>
+        </footer>
+    </container>
+</body>
+</html>
+
+
