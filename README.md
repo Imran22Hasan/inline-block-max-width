@@ -1,2 +1,1 @@
-# inline-block
-# inline-block-max-width
+# new-inline-block
